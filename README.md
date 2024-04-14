@@ -32,10 +32,6 @@ Before deploying the application, ensure you have the following prerequisites in
 
 1.  **Clone the Repository:**
     
-    ```bash
-    git clone https://github.com/Dhruvnotfound/<repo_name>.git
-    cd <repo_name>
-    ```
 2.  **updating dokcerrun.aws.json with your credentials**
 Open the `Dockerrun.aws.json` file in your project directory and update the `<Name>` fields with your AWS account ID, region, repository name, and version. The format should be:
 
